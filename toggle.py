@@ -4,7 +4,7 @@ print("Toggling OpenGL in " + path)
 input("Is that okay?")
 f = open(path + "\override.cfg", "x")
 print("Created override.cfg")
-f.write("""[rendering]\n
+f.write("""[rendering]
 renderer/rendering_method="gl_compatibility""")
 print("Toggled OpenGL")
 print("OpenGL should be enabled!")
